@@ -8,10 +8,10 @@ import org.opencv.imgcodecs.Imgcodecs;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-
 public class Demo {
 
     public static void main(String[] args) {
+        int repetitions = 3;
         String convertedToBinaryScreenShotPath = "D:/screenshot_bright_binary.png";
         String imageFromPointsPath = "D:/screenshot_points.png";
         Scalar whiteColor = new Scalar(255, 0, 0);
@@ -21,7 +21,7 @@ public class Demo {
         screenShot.initialCapture();
         MouseDriver mouseDriver = new MouseDriver(screenShot.getLeftTop());
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < repetitions; i++) {
             pause(2);
             if (i > 0) {screenShot.capture();}
             Image imageProcessing = new Image();
