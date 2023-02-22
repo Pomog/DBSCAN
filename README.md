@@ -9,4 +9,4 @@
 </div>
 
 # Example
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xTJlGgTdvog" frameborder="0" allowfullscreen></iframe>
+[![Video](https://img.youtube.com/vi/xTJlGgTdvog/0.jpg)](https://www.youtube.com/watch?v=xTJlGgTdvog)
