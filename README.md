@@ -12,10 +12,10 @@
 [![Video](https://img.youtube.com/vi/xTJlGgTdvog/0.jpg)](https://www.youtube.com/watch?v=xTJlGgTdvog)
 
 # Settings:
-In the Demo class, on <b>line 14</b>, set the repetition property to the number of cycles for the image analysis.
-In the DBScan class, on <b>line 27</b>, set the radius property to the radius of the circle
-within which all points except one will be deleted,
-reducing the number of points and speeding up the analysis.
+In the Demo class, on <b>line 14</b>,  set the repetition property to the number of cycles for the image analysis.  
+In the DBScan class, on <b>line 27</b>,  
+set the radius property to the radius of the circle within which all points except one will be deleted,  
+reducing the number of points and speeding up the analysis.  
 Lines 28 and 29 contain the epsilon and minpts properties, which are standard settings for DBScan analysis.
 
 # Instructions for using Java code:
