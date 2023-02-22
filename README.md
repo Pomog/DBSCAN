@@ -32,16 +32,16 @@ Lines 28 and 29 contain the epsilon and minpts properties, which are standard se
 7. Click the "Submit" button to start the analysis.
 
 # DBSCAN
-The DBSCAN algorithm is implemented in the DBSCAN class.  
+The DBSCAN algorithm is implemented in the **DBScan** class.  
 This class provides a method to cluster a set of points based on their density.  
 To use the DBSCAN class, you need to provide the following parameters:
 
 eps: the radius of the neighborhood around each point
 minPts: the minimum number of points required to form a cluster
-The DBSCAN class returns a list of clusters, where each cluster is represented as a list of points.
+The DBSCAN class returns Map<String, List<Point>> a list of clusters besides the noise, where each cluster is represented as a list of points.
 
 # Graham Scan
 The Graham scan algorithm is implemented in the **ConvexHull**.  
 This class provides a method to compute the convex hull of a set of points in the plane.  
 To use the GrahamScan class, you need to provide a list of points as input.  
-The GrahamScan class returns a list of points that form the convex hull.
+The **ConvexHull** class returns List<Point> a list of points that form the convex hull.
