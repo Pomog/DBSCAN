@@ -41,7 +41,7 @@ minPts: the minimum number of points required to form a cluster
 The DBSCAN class returns a list of clusters, where each cluster is represented as a list of points.
 
 # Graham Scan
-The Graham scan algorithm is implemented in the GrahamScan class.  
+The Graham scan algorithm is implemented in the **ConvexHull**.  
 This class provides a method to compute the convex hull of a set of points in the plane.  
 To use the GrahamScan class, you need to provide a list of points as input.  
 The GrahamScan class returns a list of points that form the convex hull.
