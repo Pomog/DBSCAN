@@ -34,7 +34,7 @@ Lines 28 and 29 contain the epsilon and minpts properties, which are standard se
 # DBSCAN
 The DBSCAN algorithm is implemented in the **DBScan** class.  
 This class provides a method to cluster a set of points based on their density.  
-To use the DBSCAN class, you need to provide the following parameters:
+To use the **DBScan** class, you need to provide the following parameters:
 
 eps: the radius of the neighborhood around each point
 minPts: the minimum number of points required to form a cluster
