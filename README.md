@@ -1,4 +1,7 @@
 # DBSCAN implementation for analyzing image
+Learn Basic Programming Skills with Java.
+This project provides an implementation of DBSCAN and Graham scan algorithms for image analysis.  
+It also includes an introduction to the Robot class in Java.
 
 <div style="display:flex;">
 <img src="https://github.com/Pomog/DBSCAN/blob/master/screenshot.png?raw=true" alt="example" style="width:25%;">
@@ -19,7 +22,7 @@ set the radius property to the radius of the circle within which all points exce
 reducing the number of points and speeding up the analysis.  
 Lines 28 and 29 contain the epsilon and minpts properties, which are standard settings for DBScan analysis.
 
-# Instructions for using Java code:
+# Instructions for Usage:
 1. The program is optimized for defining clusters and selecting them using the mouse.
 2. Run the main method of the Demo class.
 3. Use the Alt+Tab keys to switch to the EVE Online window.
@@ -27,3 +30,18 @@ Lines 28 and 29 contain the epsilon and minpts properties, which are standard se
 5. Click the lower left corner of the area you want to analyze.
 6. Click the upper right corner of the area you want to analyze.
 7. Click the "Submit" button to start the analysis.
+
+# DBSCAN
+The DBSCAN algorithm is implemented in the DBSCAN class.  
+This class provides a method to cluster a set of points based on their density.  
+To use the DBSCAN class, you need to provide the following parameters:
+
+eps: the radius of the neighborhood around each point
+minPts: the minimum number of points required to form a cluster
+The DBSCAN class returns a list of clusters, where each cluster is represented as a list of points.
+
+# Graham Scan
+The Graham scan algorithm is implemented in the GrahamScan class.  
+This class provides a method to compute the convex hull of a set of points in the plane.  
+To use the GrahamScan class, you need to provide a list of points as input.  
+The GrahamScan class returns a list of points that form the convex hull.
