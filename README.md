@@ -4,11 +4,13 @@ This project provides an implementation of DBSCAN and Graham scan algorithms for
 It also includes an introduction to the Robot class in Java.
 
 <div style="display:flex;">
-<img src="https://github.com/Pomog/DBSCAN/blob/master/screenshot.png?raw=true" alt="example" style="width:25%;">
+<img src="https://github.com/Pomog/DBSCAN/blob/master/screenshot.png?raw=true" alt="example" style="width:20%;">
 
-<img src="https://github.com/Pomog/DBSCAN/blob/master/clusterization1.png?raw=true" style="width:25%;">
+<img src="https://github.com/Pomog/DBSCAN/blob/master/clusterization1.png?raw=true" style="width:20%;">
 
-<img src="https://github.com/Pomog/DBSCAN/blob/master/clusterization2.png?raw=true" alt="example" style="width:25%;">
+<img src="https://github.com/Pomog/DBSCAN/blob/master/clusterization2.png?raw=true" alt="example" style="width:20%;">
+
+<img src="https://github.com/Pomog/DBSCAN/blob/master/calculatedHull.png?raw=true" alt="example" style="width:20%;">
 </div>
 
 # Example (YouTube video)
