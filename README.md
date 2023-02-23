@@ -26,12 +26,13 @@ reducing the number of points and speeding up the analysis.
 
 # Instructions for Usage:
 1. The program is optimized for defining clusters and selecting them using the mouse.
-2. Run the main method of the Demo class.
-3. Use the Alt+Tab keys to switch to the EVE Online window.
-4. Using the Alt+Tab keys, open a transparent JFrame window on top of the EVE Online window.
-5. Click the lower left corner of the area you want to analyze.
-6. Click the upper right corner of the area you want to analyze.
-7. Click the "Submit" button to start the analysis.
+2. Run EVEonline (computer game) and choose Discovery Project.
+3. Run the main method of the Demo class.
+4. Use the Alt+Tab keys to switch to the EVE Online window.
+5. Using the Alt+Tab keys, open a transparent JFrame window on top of the EVE Online window.
+6. Click the lower left corner of the area you want to analyze.
+7. Click the upper right corner of the area you want to analyze.
+8. Click the "Submit" button to start the analysis.
 
 # DBSCAN
 The DBSCAN algorithm is implemented in the **DBScan** class.  
