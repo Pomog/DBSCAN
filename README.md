@@ -40,7 +40,7 @@ This class provides a method to cluster a set of points based on their density.
 To use the **DBScan** class, you need to provide the following parameters:  
 input double[][] 2d Array of Point (x and y coordinates)  
 <b>eps:</b> the radius of the neighborhood around each point
-<b>minPts:</b> the minimum number of points required to form a cluster
+<b>minPts:</b> the minimum number of points required to form a cluster  
 The DBSCAN class returns Map<String, List<Point>> a list of clusters besides the noise, where each cluster is represented as a list of points.
 
 # Graham Scan
