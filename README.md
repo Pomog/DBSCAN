@@ -37,7 +37,7 @@ reducing the number of points and speeding up the analysis.
 # DBSCAN
 The DBSCAN algorithm is implemented in the **DBScan** class.  
 This class provides a method to cluster a set of points based on their density.  
-To use the **DBScan** class, you need to provide the following parameters:
+To use the **DBScan** class, you need to provide the following parameters:  
 input double[][] 2d Array of Point (x and y coordinates)
 <b>eps:</b> the radius of the neighborhood around each point
 <b>minPts:</b> the minimum number of points required to form a cluster
