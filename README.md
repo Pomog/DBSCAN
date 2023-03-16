@@ -55,4 +55,4 @@ The **ConvexHull** class returns List<Point> a list of points that form the conv
 3. The code was not refactored.
 
 # Sponsorship
-[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/<Pomog>)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/Pomog?label=Sponsors&style=social)
