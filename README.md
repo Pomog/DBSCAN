@@ -53,3 +53,6 @@ The **ConvexHull** class returns List<Point> a list of points that form the conv
 1. The implemented DBSCAN algorithm currently does not consider color when clustering data points.
 2. The values for the parameters eps and minPts are currently hard-coded. In order to achieve better results, they should (probably) be dynamically adjustable based on the specific dataset being used.
 3. The code was not refactored.
+
+# Sponsorship
+<iframe src="https://github.com/sponsors/Pomog/button" title="Sponsor Pomog" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
