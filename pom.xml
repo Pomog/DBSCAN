@@ -34,6 +34,12 @@
     <artifactId>annotations</artifactId>
     <version>24.0.0</version>
 </dependency>
+    
+ <dependency>
+    <groupId>org.opencv</groupId>
+    <artifactId>opencv-java</artifactId>
+    <version>3.2.0</version>
+ </dependency>
 
 
   </dependencies>
