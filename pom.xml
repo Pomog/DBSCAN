@@ -35,11 +35,6 @@
     <version>24.0.0</version>
 </dependency>
     
-<dependency>
-  <groupId>org.opencv</groupId>
-  <artifactId>opencv-java</artifactId>
-  <version>4.5.5</version>
-</dependency>
 
   </dependencies>
 </project>
