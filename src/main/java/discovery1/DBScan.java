@@ -24,9 +24,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class DBScan {
-    private int radius = 5;
-    private int epsilon = 25;
-    private int minpts = 5;
+    private int radius = 15;
+    private int epsilon = 30;
+    private int minpts = 10;
     private String clustersImagePath = "D:/clusterization";
     private Clustering<Model> result;
     private Relation<NumberVector> rel;

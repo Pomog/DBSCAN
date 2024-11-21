@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class Demo {
 
     public static void main(String[] args) {
-        int repetitions = 3;
+        int repetitions = 100;
         String convertedToBinaryScreenShotPath = "D:/screenshot_bright_binary.png";
         String imageFromPointsPath = "D:/screenshot_points.png";
         Scalar whiteColor = new Scalar(255, 0, 0);

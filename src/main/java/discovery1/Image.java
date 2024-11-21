@@ -43,7 +43,8 @@ public class Image {
     //Overload
     public void processingScreenShotToBinary(String initialScreenShotPath, String convertedToBinaryScreenShotPath){
         // Load the OpenCV library
-        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        //System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        nu.pattern.OpenCV.loadLocally();
         // Read image file
         image = Imgcodecs.imread(initialScreenShotPath, Imgcodecs.IMREAD_GRAYSCALE);
         Mat brightenedImage = new Mat(image.size(), image.type());
@@ -98,7 +99,8 @@ public class Image {
     }
 
     public void listOfPoinsToImage (List<Point> clusterHull, String refImage ,String finalImage ){
-        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        //System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        nu.pattern.OpenCV.loadLocally();
         String imageHull = "D:/hull.png";
         Scalar color = new Scalar(255, 102, 0);
         Mat image = Imgcodecs.imread(refImage);
